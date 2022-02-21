@@ -1,0 +1,15 @@
+server:
+  port: 9091
+
+app:
+  data-initialization: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+spring:
+  application:
+    name: up42-code-challenge
+  profiles:
+    active: dev
